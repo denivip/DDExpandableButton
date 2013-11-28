@@ -511,7 +511,6 @@
 	else
 	{
 		NSAssert([obj isKindOfClass:[UIView class]], @"obj must be an UIView class !");
-		NSAssert([obj respondsToSelector:@selector(defaultFrameWidth)], @"obj must implement - (CGFloat)defaultFrameWidth !");
 		return obj;
 	}
 }
